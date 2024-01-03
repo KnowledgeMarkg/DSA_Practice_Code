@@ -1,0 +1,24 @@
+package com.String.kodnest;
+
+import java.util.ArrayList;
+
+public class RemovePrimeNumbersFromArraylist {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arList = new ArrayList<>();
+		arList.add(7);
+		arList.add(18);
+		arList.add(3);
+		arList.add(14);
+		arList.add(19);
+		arList.add(31);
+		arList.add(72);
+		for(int i= arList.size()-1; i>=0; i--) {
+			if(i%2==0) {
+				arList.remove(i);
+			}
+		}
+		System.out.println(arList);
+	}
+
+}

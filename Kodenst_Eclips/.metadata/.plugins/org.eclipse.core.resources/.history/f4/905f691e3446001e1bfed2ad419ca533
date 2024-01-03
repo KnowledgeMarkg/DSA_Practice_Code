@@ -1,0 +1,25 @@
+package com.assignment.sep;
+
+import java.util.Scanner;
+
+public class Check_Armstrong_Number {
+
+	public static void main(String[] args) {
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.println("Enter A number to check armstrong");
+			int num = scanner.nextInt();
+			int digit = findNoDigit(num);
+			System.out.println(digit);
+		}
+	}
+
+	private static int findNoDigit(int num) {
+		int count =0;
+		while(num>0) {
+			num/=10;
+			count++;
+		}
+		return count;
+	}
+
+}

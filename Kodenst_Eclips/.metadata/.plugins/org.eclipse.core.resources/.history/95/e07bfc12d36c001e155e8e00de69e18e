@@ -1,0 +1,23 @@
+package com.String.kodnest;
+
+public class ConvertFirstCharToCapitalOfEcahWord {
+
+	public static void main(String[] args) {
+		String str = "I am learning java";
+		convert1stCharCapital(str);
+	}
+
+	private static void convert1stCharCapital(String str) {
+		String[] words = str.split(" ");
+		StringBuilder sb = new StringBuilder();
+		for(String word :words) {
+			if(word.charAt(0)>'a' && word.charAt(0)<'z'){
+				sb.append(word.substring(0).toUpperCase()+word.substring(1)+" ");
+			}else {
+				sb.append(word);
+			}
+		}
+		System.out.println(sb);
+	}
+
+}

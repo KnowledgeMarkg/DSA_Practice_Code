@@ -1,0 +1,10 @@
+package com.String.kodnest;
+
+public class PermutationsOfAStringIterativeSolution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

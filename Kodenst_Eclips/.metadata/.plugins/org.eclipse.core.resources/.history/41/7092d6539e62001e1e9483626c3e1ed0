@@ -1,0 +1,10 @@
+package com.KodnestArray;
+
+public class CheckArrayAreSortOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

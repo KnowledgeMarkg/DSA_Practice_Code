@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class Fibonacci_Series_Up_To_N_Terms {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

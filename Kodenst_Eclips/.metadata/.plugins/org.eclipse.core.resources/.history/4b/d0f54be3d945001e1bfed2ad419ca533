@@ -1,0 +1,25 @@
+package com.assignment.sep;
+import java.util.Scanner;
+public class Find_The_GCD_Of_Two_Numbers {
+
+	public static void main(String[] args) {
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.print("Enter the first number: ");
+			int num1 = scanner.nextInt();
+			System.out.print("Enter the second number: ");
+			int num2 = scanner.nextInt();
+            int a = findHCF(num1, num2);
+            System.out.println("The HCF OF " +num1 +"And " +num2 +"is "+a);
+		}
+	}
+
+	private static int findHCF(int num1, int num2) {
+		while(num2>0) {
+			int temp = num2;
+			num2 = num1 % num2;
+			num1 =temp;
+		}
+		return num1;
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class Sum_OfSquares_Of_N_Natural_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

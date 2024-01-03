@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class Find_The_Frequency_Of_Each_Digit_In_A_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

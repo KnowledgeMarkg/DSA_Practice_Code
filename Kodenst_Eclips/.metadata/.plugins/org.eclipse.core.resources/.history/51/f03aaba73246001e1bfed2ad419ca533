@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class Calculate_The_Sum_Of_Digits_Of_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

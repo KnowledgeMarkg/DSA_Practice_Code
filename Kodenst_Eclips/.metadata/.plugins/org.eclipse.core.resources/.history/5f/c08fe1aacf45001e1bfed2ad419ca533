@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class CalculateTheSumOfFirst_N_NaturalNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

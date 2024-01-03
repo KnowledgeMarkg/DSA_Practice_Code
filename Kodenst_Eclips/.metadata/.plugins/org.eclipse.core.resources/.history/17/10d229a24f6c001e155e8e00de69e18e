@@ -1,0 +1,17 @@
+package com.String.kodnest;
+
+public class StringWithASCIIDifferenceOfCharacters {
+
+	public static void main(String[] args) {
+		String str = "abcdefgk";
+		char[] ch = str.toCharArray();
+		String st = ch[0]+"";
+		for(int i=1; i<ch.length; i++) {
+			int val = ch[i-1] - ch[i];
+			st+=ch[i];
+			st+=val;
+		}
+		System.out.println(st);
+	}
+
+}

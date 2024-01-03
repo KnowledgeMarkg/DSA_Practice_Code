@@ -1,0 +1,22 @@
+package com.assignment.sep;
+
+import java.util.Scanner;
+
+public class Print_The_First_N_Prime_Numbers {
+
+	public static void main(String[] args) {
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.println("Enter A number");
+			int num = scanner.nextInt();
+			for(int i=2 ; i <=num ; i++) {
+				for(int j=2; j<Math.sqrt(num); j++) {
+					if(i%j==0) {
+						break;
+					}
+				}
+				System.out.println(i);
+			}
+		}
+	}
+
+}

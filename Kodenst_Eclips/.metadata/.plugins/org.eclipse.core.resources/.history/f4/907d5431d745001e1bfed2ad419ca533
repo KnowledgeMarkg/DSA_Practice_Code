@@ -1,0 +1,10 @@
+package com.assignment.sep;
+
+public class Find_The_GCD_Of_Two_Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

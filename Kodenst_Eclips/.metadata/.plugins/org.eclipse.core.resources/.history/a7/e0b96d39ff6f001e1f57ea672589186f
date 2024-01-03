@@ -1,0 +1,23 @@
+package com.String.kodnest;
+
+public class FindLongestWordsInSentences {
+
+	public static void main(String[] args) {
+		String str = "I am learning Java Programminh";
+		String word = findLongestWord(str);
+	}
+
+	private static String findLongestWord(String str) {
+		  String[] strArr = str.split(" ");
+		  int count =0; 
+		  for(String st : strArr) {
+			  int l = st.length();
+			  if(l>count) {
+				  count = l;
+			  }
+		  }
+		  System.out.println(count);
+		return null;
+	}
+
+}

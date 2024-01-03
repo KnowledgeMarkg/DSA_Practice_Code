@@ -1,0 +1,34 @@
+package com.RaghviTech;
+
+import java.util.regex.Pattern;
+
+public class EmailValidate {
+
+	public static void main(String[] args) {
+		String[] email = {
+	      "user@example.com",
+		  "invalid.email",
+		  "another.user@domain.com",
+		  "12345@gmail.com"	
+		};
+		
+		for(String string : email) {
+			boolean isvalid = validateEmail(string);
+			System.out.println(string +"is valid: "+ isvalid);
+		}
+	}
+
+	private static boolean validateEmail(String email) {
+		 if(email==null || email.isEmpty()) {
+			 return false;
+		 }
+		 String emailRegexString = "^[a-zA-Z0-9+_.-]+@(.+)$";
+		 Pattern pattern = Pattern.compile(emailRegexString);
+		 if(pattern.matcher(emailRegexString).matches()) {
+			 return true;
+		 }else {
+			return false;
+		}
+	}
+
+}
